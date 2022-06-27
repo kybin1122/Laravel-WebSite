@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class ContactController extends Controller
+{
+    public function contact_page()
+    {
+        return view('pages.contact_us');
+    } 
+}
